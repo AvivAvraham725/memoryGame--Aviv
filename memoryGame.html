@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memoryGame.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <br>
+    <h3 id="welcomeMessage">Welcome ! Please choose a category to start the game </h3>
+    <section>
+        <div class="btnG">
+            <button id="btn1" onclick="clickOnCategory('HarryPotter')">Harry Potter</button>
+            <button id="btn2" onclick="clickOnCategory('Flags')">Flags</button>
+            <button id="btn3" onclick="clickOnCategory('Pokemon')">Pokemon</button>
+        </div>
+    </section>
+    <br><br>
+    	<section class="memory-game"></section>
+    <br><br>
+    <button id="resetBtn" onclick="resetGame()">Reset Game</button>
+    <script src="memoryGame.js"></script>
+    <footer>Aviv Avraham Fullstack Course 2025</footer>
+</body>
+</html>
